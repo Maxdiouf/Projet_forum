@@ -4,7 +4,7 @@
 $engine = "mysql";
 $host = "localhost";
 $port = 8889;
-$dbname = "forum1";
+$dbname = "forum";
 $username = "root";
 $password = "root";
 $pdo = new PDO("$engine:host=$host:$port;dbname=$dbname", $username, $password);
